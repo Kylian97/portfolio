@@ -38,12 +38,15 @@ body {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 200px;
+        height: 170px;
+        background-color: rgba(255, 255, 255, 0.696);
+        border-radius: 15px;
+        padding: 5px 4px;
 }
 
 .scroll_nav i {
         color: #354f83;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
 
 }
 
@@ -254,10 +257,7 @@ nav {
         margin-top: 50px;
         overflow: auto;
         background-color: rgba(255, 255, 255, 0.863);
-        border-radius: 15px;
-       
-       
-        
+        border-radius: 15px;        
         line-height: 3.5rem;
         
        
@@ -336,8 +336,7 @@ nav {
 
 .card_competence {
         background-color: rgba(255, 255, 255, 0.8);
-        border-radius: 20px;
-        border: 2px solid #fff;
+        border-radius: 15px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.648);
         transition: 0.5s;
         
@@ -607,6 +606,7 @@ nav {
 
 .description_contact span {
         color: #354f83;
+        text-decoration: underline;
 
 }
 
@@ -625,7 +625,7 @@ nav {
         width: 85%;
         height: 70%;
         background-color: rgba(255, 255, 255, 0.623);
-        border-radius: 20px;
+        border-radius: 15px;
         font-weight: bold;
 }
 
@@ -832,7 +832,7 @@ nav {
 
         .container-text-infos {
 
-                background-color: rgba(188, 185, 185, 0.788);
+                background-color: rgba(255, 255, 255, 0.863);
                 border-radius: 10px;
         }
 
@@ -1041,9 +1041,14 @@ nav {
 
         /*menu hamburger responsive */
 
+       .scroll_nav { 
+        padding: 3px 2px;
+        height: 140px;
+       }
+        
         .scroll_nav i {
                 color: #354f83;
-                font-size: 1em;
+                font-size: 0.9rem;
         }
 
         .titre-infos {
@@ -1068,7 +1073,7 @@ nav {
 
         .container-text-infos {
                 width: 80%;
-                background-color: rgba(188, 185, 185, 0.845);
+                background-color: rgba(255, 255, 255, 0.863);
                 line-height: 2.5rem;
         }
 
@@ -1386,10 +1391,14 @@ nav {
         }
 
         /*menu hamburger responsive */
+        .scroll_nav{
+                height: 110px;
+                padding: 1px 2px;
+        }
 
         .scroll_nav i {
                 color: #354f83;
-                font-size: 1em;
+                font-size: 0.7rem;
         }
 
         .titre-infos {
@@ -1414,7 +1423,7 @@ nav {
 
         .container-text-infos {
                 width: 80%;
-                background-color: rgba(188, 185, 185, 0.845);
+                background-color: rgba(255, 255, 255, 0.863);
         }
 
         .container-box {
